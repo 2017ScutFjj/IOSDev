@@ -54,7 +54,7 @@ while Haved != 54{
 }
 
 var Find = 0
-var All = Person * PN - 1
+var All = Person * PN
 while Find < All{
     if Find % PN == 0{
         print("\(Find/PN + 1):")
